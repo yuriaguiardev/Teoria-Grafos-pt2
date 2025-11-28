@@ -1,14 +1,14 @@
-📘 Trabalho de Grafos – Implementação de Caminhamentos e Algoritmos de Menor Caminho
+ Trabalho de Grafos – Implementação de Caminhamentos e Algoritmos de Menor Caminho
 
 Este projeto implementa, em Python, os principais algoritmos de caminhamento em grafos e algoritmos clássicos de menor caminho. Inclui demonstrações completas no terminal e foi desenvolvido para fins acadêmicos.
 
-📂 Estrutura do Projeto
+ Estrutura do Projeto
 /trabalho-grafos
 │
 ├── main.py        # Arquivo principal contendo todo o código
 └── README.md      # Este documento
 
-▶️ Como Executar
+ Como Executar
 1. Requisitos
 
 Python 3.8 ou superior
@@ -24,8 +24,8 @@ python main.py
 
 O programa automaticamente exibirá exemplos e testes dos algoritmos.
 
-🧠 Algoritmos Implementados
-🔹 BFS — Breadth-First Search
+ Algoritmos Implementados
+ BFS — Breadth-First Search
 
 Percorre o grafo por camadas, utilizando fila.
 
@@ -39,7 +39,7 @@ distâncias,
 
 reconstrução do caminho.
 
-🔹 DFS — Depth-First Search
+ DFS — Depth-First Search
 
 Implementado em duas versões:
 
@@ -57,7 +57,7 @@ identificação de componentes,
 
 uso inicial para ordenação topológica.
 
-🔹 Dijkstra
+ Dijkstra
 
 Calcula o menor caminho em grafos ponderados sem pesos negativos.
 
@@ -69,7 +69,7 @@ vetor de distâncias,
 
 caminho mínimo reconstruído.
 
-🔹 Bellman–Ford
+ Bellman–Ford
 
 Aceita pesos negativos.
 
@@ -83,7 +83,7 @@ caminho reconstruído,
 
 alerta sobre possível ciclo negativo.
 
-📊 Estrutura dos Grafos Utilizados
+ Estrutura dos Grafos Utilizados
 
 O projeto trabalha com:
 
@@ -97,7 +97,7 @@ Todos definidos diretamente em main.py para facilitar a correção.
 
 O grafo contém pelo menos 16 vértices, cumprindo as exigências acadêmicas.
 
-🧪 Demonstrações ao Executar
+ Demonstrações ao Executar
 
 O programa automaticamente exibe:
 
@@ -121,7 +121,7 @@ Distância: 34.0
 === DEMO BELLMAN-FORD ===
 Nenhum ciclo negativo detectado.
 
-🎯 Objetivo do Projeto
+ Objetivo do Projeto
 
 Este projeto foi criado para fins educacionais, permitindo ao estudante:
 
